@@ -10,26 +10,16 @@ This project uses **YOLOv10** to detect **RBCs, WBCs, and Platelets** from blood
 
 ## **🚀 How to Run Locally**  
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/blood-cell-detection.git
-   cd blood-cell-detection
-   ```
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+2. Install dependencies shown in requiremnts.txt file:  
+
 3. Run the Streamlit app:  
-   ```bash
-   streamlit run app.py
-   ```
+
 
 ## **🌍 Deploy on Hugging Face**  
 This app is deployed on Hugging Face Spaces. Try it here:  
-🔗 **[Live Demo](https://huggingface.co/spaces/your-space-name)**  
+[bccd_object_detection_app](https://huggingface.co/spaces/Abhip97/bccd-object-detection).
 
 ## **📦 Requirements**  
 - Python 3.8+  
 - `torch`, `ultralytics`, `opencv-python`, `streamlit`, `pillow`, `numpy`, `pandas`  
-
-## **📜 License**  
-This project is **open-source** under the MIT License.  
