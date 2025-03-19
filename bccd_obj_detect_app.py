@@ -6,6 +6,8 @@ from PIL import Image
 import pandas as pd
 from ultralytics import YOLO
 
+# 2nd update
+
 # Load YOLOv10 model
 model = YOLO("best_yolov10.pt")  
 
